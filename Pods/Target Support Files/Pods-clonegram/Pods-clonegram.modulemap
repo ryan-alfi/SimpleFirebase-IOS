@@ -1,0 +1,6 @@
+framework module Pods_clonegram {
+  umbrella header "Pods-clonegram-umbrella.h"
+
+  export *
+  module * { export * }
+}

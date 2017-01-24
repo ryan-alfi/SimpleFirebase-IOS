@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0352BEE9D28E8890CAAF0F12 /* Pods_clonegramTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A90DA77A423B0BDB544A429 /* Pods_clonegramTests.framework */; };
+		12B24C86D09FD88008630F63 /* Pods_clonegram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C121953A14BCD39E48CD4C39 /* Pods_clonegram.framework */; };
 		88F45F291E37066F003CD6EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F45F281E37066F003CD6EB /* AppDelegate.swift */; };
-		88F45F2B1E37066F003CD6EB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F45F2A1E37066F003CD6EB /* ViewController.swift */; };
 		88F45F2E1E37066F003CD6EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88F45F2C1E37066F003CD6EB /* Main.storyboard */; };
 		88F45F311E37066F003CD6EB /* clonegram.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 88F45F2F1E37066F003CD6EB /* clonegram.xcdatamodeld */; };
 		88F45F331E37066F003CD6EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88F45F321E37066F003CD6EB /* Assets.xcassets */; };
 		88F45F361E37066F003CD6EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88F45F341E37066F003CD6EB /* LaunchScreen.storyboard */; };
 		88F45F411E37066F003CD6EB /* clonegramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F45F401E37066F003CD6EB /* clonegramTests.swift */; };
 		88F45F4C1E37066F003CD6EB /* clonegramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F45F4B1E37066F003CD6EB /* clonegramUITests.swift */; };
+		88F45F5A1E370775003CD6EB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 88F45F591E370775003CD6EB /* GoogleService-Info.plist */; };
+		88F45F5C1E370CE0003CD6EB /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F45F5B1E370CE0003CD6EB /* SignUpViewController.swift */; };
+		88F45F5E1E3722D3003CD6EB /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F45F5D1E3722D3003CD6EB /* LoginViewController.swift */; };
+		A5FA9BE337DA044B21DC1A5A /* Pods_clonegramUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0712E160753F5A453CB8B59F /* Pods_clonegramUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +40,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0712E160753F5A453CB8B59F /* Pods_clonegramUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_clonegramUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A90DA77A423B0BDB544A429 /* Pods_clonegramTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_clonegramTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		345A876B9CA4E9F93119B91D /* Pods-clonegram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-clonegram.release.xcconfig"; path = "Pods/Target Support Files/Pods-clonegram/Pods-clonegram.release.xcconfig"; sourceTree = "<group>"; };
+		429DC7CC0981A35F67E81CFF /* Pods-clonegramUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-clonegramUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-clonegramUITests/Pods-clonegramUITests.release.xcconfig"; sourceTree = "<group>"; };
+		80ACD7E93C28F494F5650A52 /* Pods-clonegram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-clonegram.debug.xcconfig"; path = "Pods/Target Support Files/Pods-clonegram/Pods-clonegram.debug.xcconfig"; sourceTree = "<group>"; };
 		88F45F251E37066F003CD6EB /* clonegram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = clonegram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		88F45F281E37066F003CD6EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		88F45F2A1E37066F003CD6EB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		88F45F2D1E37066F003CD6EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		88F45F301E37066F003CD6EB /* clonegram.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = clonegram.xcdatamodel; sourceTree = "<group>"; };
 		88F45F321E37066F003CD6EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +58,13 @@
 		88F45F471E37066F003CD6EB /* clonegramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = clonegramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		88F45F4B1E37066F003CD6EB /* clonegramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = clonegramUITests.swift; sourceTree = "<group>"; };
 		88F45F4D1E37066F003CD6EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88F45F591E370775003CD6EB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		88F45F5B1E370CE0003CD6EB /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		88F45F5D1E3722D3003CD6EB /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		8D4EA861FBC5111D475CD28C /* Pods-clonegramTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-clonegramTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-clonegramTests/Pods-clonegramTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AA3F1DDD1A1075B0A18C930C /* Pods-clonegramTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-clonegramTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-clonegramTests/Pods-clonegramTests.release.xcconfig"; sourceTree = "<group>"; };
+		B8BA800A096D049740B6B36D /* Pods-clonegramUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-clonegramUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-clonegramUITests/Pods-clonegramUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C121953A14BCD39E48CD4C39 /* Pods_clonegram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_clonegram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12B24C86D09FD88008630F63 /* Pods_clonegram.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0352BEE9D28E8890CAAF0F12 /* Pods_clonegramTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +88,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5FA9BE337DA044B21DC1A5A /* Pods_clonegramUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2451A180E0E2C6414E912845 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C121953A14BCD39E48CD4C39 /* Pods_clonegram.framework */,
+				1A90DA77A423B0BDB544A429 /* Pods_clonegramTests.framework */,
+				0712E160753F5A453CB8B59F /* Pods_clonegramUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		65C065E1F2A8C00830F91696 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				80ACD7E93C28F494F5650A52 /* Pods-clonegram.debug.xcconfig */,
+				345A876B9CA4E9F93119B91D /* Pods-clonegram.release.xcconfig */,
+				8D4EA861FBC5111D475CD28C /* Pods-clonegramTests.debug.xcconfig */,
+				AA3F1DDD1A1075B0A18C930C /* Pods-clonegramTests.release.xcconfig */,
+				B8BA800A096D049740B6B36D /* Pods-clonegramUITests.debug.xcconfig */,
+				429DC7CC0981A35F67E81CFF /* Pods-clonegramUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		88F45F1C1E37066F003CD6EB = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +125,8 @@
 				88F45F3F1E37066F003CD6EB /* clonegramTests */,
 				88F45F4A1E37066F003CD6EB /* clonegramUITests */,
 				88F45F261E37066F003CD6EB /* Products */,
+				65C065E1F2A8C00830F91696 /* Pods */,
+				2451A180E0E2C6414E912845 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,12 +144,14 @@
 			isa = PBXGroup;
 			children = (
 				88F45F281E37066F003CD6EB /* AppDelegate.swift */,
-				88F45F2A1E37066F003CD6EB /* ViewController.swift */,
 				88F45F2C1E37066F003CD6EB /* Main.storyboard */,
 				88F45F321E37066F003CD6EB /* Assets.xcassets */,
 				88F45F341E37066F003CD6EB /* LaunchScreen.storyboard */,
 				88F45F371E37066F003CD6EB /* Info.plist */,
 				88F45F2F1E37066F003CD6EB /* clonegram.xcdatamodeld */,
+				88F45F591E370775003CD6EB /* GoogleService-Info.plist */,
+				88F45F5B1E370CE0003CD6EB /* SignUpViewController.swift */,
+				88F45F5D1E3722D3003CD6EB /* LoginViewController.swift */,
 			);
 			path = clonegram;
 			sourceTree = "<group>";
@@ -135,9 +181,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 88F45F501E37066F003CD6EB /* Build configuration list for PBXNativeTarget "clonegram" */;
 			buildPhases = (
+				758DA0A1895C86F98144C8CD /* [CP] Check Pods Manifest.lock */,
 				88F45F211E37066F003CD6EB /* Sources */,
 				88F45F221E37066F003CD6EB /* Frameworks */,
 				88F45F231E37066F003CD6EB /* Resources */,
+				FB7D98799245A0138960FF2C /* [CP] Embed Pods Frameworks */,
+				FAB605D17092A12CB71FF80A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +201,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 88F45F531E37066F003CD6EB /* Build configuration list for PBXNativeTarget "clonegramTests" */;
 			buildPhases = (
+				B71C5EDEB681CD913749C02B /* [CP] Check Pods Manifest.lock */,
 				88F45F381E37066F003CD6EB /* Sources */,
 				88F45F391E37066F003CD6EB /* Frameworks */,
 				88F45F3A1E37066F003CD6EB /* Resources */,
+				9062E80C1FB5302AC4C8129C /* [CP] Embed Pods Frameworks */,
+				D2D078229A727D1B32478891 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +222,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 88F45F561E37066F003CD6EB /* Build configuration list for PBXNativeTarget "clonegramUITests" */;
 			buildPhases = (
+				28497B611BD2B147AFE11C68 /* [CP] Check Pods Manifest.lock */,
 				88F45F431E37066F003CD6EB /* Sources */,
 				88F45F441E37066F003CD6EB /* Frameworks */,
 				88F45F451E37066F003CD6EB /* Resources */,
+				7F1127E1CA9715379745EFA0 /* [CP] Embed Pods Frameworks */,
+				64561C0ED178B0B704AF4B47 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -236,6 +291,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				88F45F361E37066F003CD6EB /* LaunchScreen.storyboard in Resources */,
+				88F45F5A1E370775003CD6EB /* GoogleService-Info.plist in Resources */,
 				88F45F331E37066F003CD6EB /* Assets.xcassets in Resources */,
 				88F45F2E1E37066F003CD6EB /* Main.storyboard in Resources */,
 			);
@@ -257,12 +313,151 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		28497B611BD2B147AFE11C68 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		64561C0ED178B0B704AF4B47 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-clonegramUITests/Pods-clonegramUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		758DA0A1895C86F98144C8CD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7F1127E1CA9715379745EFA0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-clonegramUITests/Pods-clonegramUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9062E80C1FB5302AC4C8129C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-clonegramTests/Pods-clonegramTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B71C5EDEB681CD913749C02B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D2D078229A727D1B32478891 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-clonegramTests/Pods-clonegramTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FAB605D17092A12CB71FF80A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-clonegram/Pods-clonegram-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB7D98799245A0138960FF2C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-clonegram/Pods-clonegram-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		88F45F211E37066F003CD6EB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				88F45F2B1E37066F003CD6EB /* ViewController.swift in Sources */,
+				88F45F5E1E3722D3003CD6EB /* LoginViewController.swift in Sources */,
+				88F45F5C1E370CE0003CD6EB /* SignUpViewController.swift in Sources */,
 				88F45F291E37066F003CD6EB /* AppDelegate.swift in Sources */,
 				88F45F311E37066F003CD6EB /* clonegram.xcdatamodeld in Sources */,
 			);
@@ -412,6 +607,7 @@
 		};
 		88F45F511E37066F003CD6EB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80ACD7E93C28F494F5650A52 /* Pods-clonegram.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = clonegram/Info.plist;
@@ -424,6 +620,7 @@
 		};
 		88F45F521E37066F003CD6EB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 345A876B9CA4E9F93119B91D /* Pods-clonegram.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = clonegram/Info.plist;
@@ -436,6 +633,7 @@
 		};
 		88F45F541E37066F003CD6EB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D4EA861FBC5111D475CD28C /* Pods-clonegramTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -450,6 +648,7 @@
 		};
 		88F45F551E37066F003CD6EB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA3F1DDD1A1075B0A18C930C /* Pods-clonegramTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -464,6 +663,7 @@
 		};
 		88F45F571E37066F003CD6EB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8BA800A096D049740B6B36D /* Pods-clonegramUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = clonegramUITests/Info.plist;
@@ -477,6 +677,7 @@
 		};
 		88F45F581E37066F003CD6EB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 429DC7CC0981A35F67E81CFF /* Pods-clonegramUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = clonegramUITests/Info.plist;
@@ -507,6 +708,7 @@
 				88F45F521E37066F003CD6EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		88F45F531E37066F003CD6EB /* Build configuration list for PBXNativeTarget "clonegramTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +717,7 @@
 				88F45F551E37066F003CD6EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		88F45F561E37066F003CD6EB /* Build configuration list for PBXNativeTarget "clonegramUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +726,7 @@
 				88F45F581E37066F003CD6EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

@@ -1,0 +1,6 @@
+framework module Pods_clonegramUITests {
+  umbrella header "Pods-clonegramUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

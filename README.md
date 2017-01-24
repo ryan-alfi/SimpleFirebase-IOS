@@ -1,1 +1,2 @@
-# SimpleFirebase using Auth, Database, and Storage for IOS
+# SimpleFirebase for IOS
+Using Authentication, Storage, and Database

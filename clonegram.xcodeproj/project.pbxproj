@@ -1,0 +1,543 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		88F45F291E37066F003CD6EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F45F281E37066F003CD6EB /* AppDelegate.swift */; };
+		88F45F2B1E37066F003CD6EB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F45F2A1E37066F003CD6EB /* ViewController.swift */; };
+		88F45F2E1E37066F003CD6EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88F45F2C1E37066F003CD6EB /* Main.storyboard */; };
+		88F45F311E37066F003CD6EB /* clonegram.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 88F45F2F1E37066F003CD6EB /* clonegram.xcdatamodeld */; };
+		88F45F331E37066F003CD6EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88F45F321E37066F003CD6EB /* Assets.xcassets */; };
+		88F45F361E37066F003CD6EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88F45F341E37066F003CD6EB /* LaunchScreen.storyboard */; };
+		88F45F411E37066F003CD6EB /* clonegramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F45F401E37066F003CD6EB /* clonegramTests.swift */; };
+		88F45F4C1E37066F003CD6EB /* clonegramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F45F4B1E37066F003CD6EB /* clonegramUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		88F45F3D1E37066F003CD6EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 88F45F1D1E37066F003CD6EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88F45F241E37066F003CD6EB;
+			remoteInfo = clonegram;
+		};
+		88F45F481E37066F003CD6EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 88F45F1D1E37066F003CD6EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88F45F241E37066F003CD6EB;
+			remoteInfo = clonegram;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		88F45F251E37066F003CD6EB /* clonegram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = clonegram.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		88F45F281E37066F003CD6EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		88F45F2A1E37066F003CD6EB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		88F45F2D1E37066F003CD6EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		88F45F301E37066F003CD6EB /* clonegram.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = clonegram.xcdatamodel; sourceTree = "<group>"; };
+		88F45F321E37066F003CD6EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		88F45F351E37066F003CD6EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		88F45F371E37066F003CD6EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88F45F3C1E37066F003CD6EB /* clonegramTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = clonegramTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		88F45F401E37066F003CD6EB /* clonegramTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = clonegramTests.swift; sourceTree = "<group>"; };
+		88F45F421E37066F003CD6EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88F45F471E37066F003CD6EB /* clonegramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = clonegramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		88F45F4B1E37066F003CD6EB /* clonegramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = clonegramUITests.swift; sourceTree = "<group>"; };
+		88F45F4D1E37066F003CD6EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		88F45F221E37066F003CD6EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88F45F391E37066F003CD6EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88F45F441E37066F003CD6EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		88F45F1C1E37066F003CD6EB = {
+			isa = PBXGroup;
+			children = (
+				88F45F271E37066F003CD6EB /* clonegram */,
+				88F45F3F1E37066F003CD6EB /* clonegramTests */,
+				88F45F4A1E37066F003CD6EB /* clonegramUITests */,
+				88F45F261E37066F003CD6EB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		88F45F261E37066F003CD6EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				88F45F251E37066F003CD6EB /* clonegram.app */,
+				88F45F3C1E37066F003CD6EB /* clonegramTests.xctest */,
+				88F45F471E37066F003CD6EB /* clonegramUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		88F45F271E37066F003CD6EB /* clonegram */ = {
+			isa = PBXGroup;
+			children = (
+				88F45F281E37066F003CD6EB /* AppDelegate.swift */,
+				88F45F2A1E37066F003CD6EB /* ViewController.swift */,
+				88F45F2C1E37066F003CD6EB /* Main.storyboard */,
+				88F45F321E37066F003CD6EB /* Assets.xcassets */,
+				88F45F341E37066F003CD6EB /* LaunchScreen.storyboard */,
+				88F45F371E37066F003CD6EB /* Info.plist */,
+				88F45F2F1E37066F003CD6EB /* clonegram.xcdatamodeld */,
+			);
+			path = clonegram;
+			sourceTree = "<group>";
+		};
+		88F45F3F1E37066F003CD6EB /* clonegramTests */ = {
+			isa = PBXGroup;
+			children = (
+				88F45F401E37066F003CD6EB /* clonegramTests.swift */,
+				88F45F421E37066F003CD6EB /* Info.plist */,
+			);
+			path = clonegramTests;
+			sourceTree = "<group>";
+		};
+		88F45F4A1E37066F003CD6EB /* clonegramUITests */ = {
+			isa = PBXGroup;
+			children = (
+				88F45F4B1E37066F003CD6EB /* clonegramUITests.swift */,
+				88F45F4D1E37066F003CD6EB /* Info.plist */,
+			);
+			path = clonegramUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		88F45F241E37066F003CD6EB /* clonegram */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88F45F501E37066F003CD6EB /* Build configuration list for PBXNativeTarget "clonegram" */;
+			buildPhases = (
+				88F45F211E37066F003CD6EB /* Sources */,
+				88F45F221E37066F003CD6EB /* Frameworks */,
+				88F45F231E37066F003CD6EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = clonegram;
+			productName = clonegram;
+			productReference = 88F45F251E37066F003CD6EB /* clonegram.app */;
+			productType = "com.apple.product-type.application";
+		};
+		88F45F3B1E37066F003CD6EB /* clonegramTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88F45F531E37066F003CD6EB /* Build configuration list for PBXNativeTarget "clonegramTests" */;
+			buildPhases = (
+				88F45F381E37066F003CD6EB /* Sources */,
+				88F45F391E37066F003CD6EB /* Frameworks */,
+				88F45F3A1E37066F003CD6EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				88F45F3E1E37066F003CD6EB /* PBXTargetDependency */,
+			);
+			name = clonegramTests;
+			productName = clonegramTests;
+			productReference = 88F45F3C1E37066F003CD6EB /* clonegramTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		88F45F461E37066F003CD6EB /* clonegramUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88F45F561E37066F003CD6EB /* Build configuration list for PBXNativeTarget "clonegramUITests" */;
+			buildPhases = (
+				88F45F431E37066F003CD6EB /* Sources */,
+				88F45F441E37066F003CD6EB /* Frameworks */,
+				88F45F451E37066F003CD6EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				88F45F491E37066F003CD6EB /* PBXTargetDependency */,
+			);
+			name = clonegramUITests;
+			productName = clonegramUITests;
+			productReference = 88F45F471E37066F003CD6EB /* clonegramUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		88F45F1D1E37066F003CD6EB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Dycode;
+				TargetAttributes = {
+					88F45F241E37066F003CD6EB = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+					88F45F3B1E37066F003CD6EB = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 88F45F241E37066F003CD6EB;
+					};
+					88F45F461E37066F003CD6EB = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 88F45F241E37066F003CD6EB;
+					};
+				};
+			};
+			buildConfigurationList = 88F45F201E37066F003CD6EB /* Build configuration list for PBXProject "clonegram" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 88F45F1C1E37066F003CD6EB;
+			productRefGroup = 88F45F261E37066F003CD6EB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				88F45F241E37066F003CD6EB /* clonegram */,
+				88F45F3B1E37066F003CD6EB /* clonegramTests */,
+				88F45F461E37066F003CD6EB /* clonegramUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		88F45F231E37066F003CD6EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88F45F361E37066F003CD6EB /* LaunchScreen.storyboard in Resources */,
+				88F45F331E37066F003CD6EB /* Assets.xcassets in Resources */,
+				88F45F2E1E37066F003CD6EB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88F45F3A1E37066F003CD6EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88F45F451E37066F003CD6EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		88F45F211E37066F003CD6EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88F45F2B1E37066F003CD6EB /* ViewController.swift in Sources */,
+				88F45F291E37066F003CD6EB /* AppDelegate.swift in Sources */,
+				88F45F311E37066F003CD6EB /* clonegram.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88F45F381E37066F003CD6EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88F45F411E37066F003CD6EB /* clonegramTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88F45F431E37066F003CD6EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88F45F4C1E37066F003CD6EB /* clonegramUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		88F45F3E1E37066F003CD6EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 88F45F241E37066F003CD6EB /* clonegram */;
+			targetProxy = 88F45F3D1E37066F003CD6EB /* PBXContainerItemProxy */;
+		};
+		88F45F491E37066F003CD6EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 88F45F241E37066F003CD6EB /* clonegram */;
+			targetProxy = 88F45F481E37066F003CD6EB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		88F45F2C1E37066F003CD6EB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88F45F2D1E37066F003CD6EB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		88F45F341E37066F003CD6EB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88F45F351E37066F003CD6EB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		88F45F4E1E37066F003CD6EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		88F45F4F1E37066F003CD6EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		88F45F511E37066F003CD6EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = clonegram/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Dycode.clonegram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		88F45F521E37066F003CD6EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = clonegram/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Dycode.clonegram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		88F45F541E37066F003CD6EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = clonegramTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Dycode.clonegramTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/clonegram.app/clonegram";
+			};
+			name = Debug;
+		};
+		88F45F551E37066F003CD6EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = clonegramTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Dycode.clonegramTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/clonegram.app/clonegram";
+			};
+			name = Release;
+		};
+		88F45F571E37066F003CD6EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = clonegramUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Dycode.clonegramUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = clonegram;
+			};
+			name = Debug;
+		};
+		88F45F581E37066F003CD6EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = clonegramUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Dycode.clonegramUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = clonegram;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		88F45F201E37066F003CD6EB /* Build configuration list for PBXProject "clonegram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88F45F4E1E37066F003CD6EB /* Debug */,
+				88F45F4F1E37066F003CD6EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88F45F501E37066F003CD6EB /* Build configuration list for PBXNativeTarget "clonegram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88F45F511E37066F003CD6EB /* Debug */,
+				88F45F521E37066F003CD6EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		88F45F531E37066F003CD6EB /* Build configuration list for PBXNativeTarget "clonegramTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88F45F541E37066F003CD6EB /* Debug */,
+				88F45F551E37066F003CD6EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		88F45F561E37066F003CD6EB /* Build configuration list for PBXNativeTarget "clonegramUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88F45F571E37066F003CD6EB /* Debug */,
+				88F45F581E37066F003CD6EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		88F45F2F1E37066F003CD6EB /* clonegram.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				88F45F301E37066F003CD6EB /* clonegram.xcdatamodel */,
+			);
+			currentVersion = 88F45F301E37066F003CD6EB /* clonegram.xcdatamodel */;
+			path = clonegram.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 88F45F1D1E37066F003CD6EB /* Project object */;
+}
